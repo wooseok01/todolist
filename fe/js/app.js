@@ -40,6 +40,7 @@
 
 })(window);
 
+/**/
 function syncToDoListCount(){
 	var count = $('.todo-list>li:not(.completed)').length*1;
 	$('.todo-count>strong').html(count);
